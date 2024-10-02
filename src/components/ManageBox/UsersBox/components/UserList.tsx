@@ -1,0 +1,104 @@
+import { ReactNode, useContext, useEffect, useState } from "react"
+import { ServerPageContext } from ".."
+import { Button, Popover, Tag } from "antd"
+import { PlusOutlined, ReloadOutlined } from "@ant-design/icons"
+import { TableC } from "../../../TableC"
+import { _const } from "../../../../_constant"
+import { userPageAction } from "../_actions"
+import { useAppSelector } from "../../../../app/hooks"
+import { IColumns, columns } from "./COLUMS"
+import { CustomerAddModal } from "../../../modals/CustomerAddModal"
+
+export const UserList = () => {
+  const { state, dispatch } = useContext(ServerPageContext)
+  const user = useAppSelector(
+    (state_) => state_?.user?.child?.object?.[state?.userId],
+  )
+
+  const reload = () => dispatch?.(userPageAction?.reloadDeviceData())
+  const params = state?.user?.param
+  const userState = state?.user
+
+  const [dataSource, setDataSource] = useState<IColumns[]>()
+
+  useEffect(() => {
+    const dataSource_: IColumns[] =
+      userState?.list?.map?.((lv, index) => {
+        const key = params?.limit * params?.offset + index + 1
+        return {
+          key: key,
+          stt: key,
+          name: lv?.name || "-",
+          company: lv?.company || "-",
+          username: lv?.username || "-",
+          level_name: lv?.level_name || "-",
+          phone: lv?.phone || "-",
+          email: lv?.email || "-",
+          tax_code: lv?.tax_code || "-",
+          website: lv?.website || "-",
+          address: lv?.address || "-",
+          data: lv,
+          is_actived: lv?.is_actived == 0 ? "Vô hiệu hoá" : "Hoạt động",
+          updateAction: reload,
+          actions: "-",
+        }
+      }) || []
+
+    setDataSource(dataSource_)
+  }, [userState?.list])
+
+  if (!dataSource) return null
+
+  return (
+    <div className="h-full">
+      <div className="h-full">
+        <TableC
+          title="Danh sách khách hàng"
+          onReload={reload}
+          // scroll={{
+          //   useScroll: true,
+          // }}
+          search={{
+            width: 200,
+            onSearch(q) {
+              dispatch?.(userPageAction?.setUserQSearch?.(q))
+            },
+            limitSearchLength: 3,
+          }}
+          right={
+            <>
+              {user?.is_team ? null : (
+                <CustomerAddModal
+                  onSccess={() => {
+                    reload?.()
+                  }}
+                  userId={state?.userId}
+                  button={
+                    <Button type="default" size="small" icon={<PlusOutlined />}>
+                      Thêm khách hàng
+                    </Button>
+                  }
+                />
+              )}
+            </>
+          }
+          props={{
+            loading: userState?.isLoading,
+            columns: columns,
+            dataSource: dataSource,
+            size: "middle",
+            pagination: {
+              pageSize: userState?.param?.limit,
+              total: userState?.totalPage * userState?.param?.limit,
+              current: userState?.param?.offset + 1,
+              onChange(page, pageSize) {
+                dispatch?.(userPageAction?.setUserOffset(page - 1))
+                dispatch?.(userPageAction?.setUserLimit(pageSize))
+              },
+            },
+          }}
+        />
+      </div>
+    </div>
+  )
+}

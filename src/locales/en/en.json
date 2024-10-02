@@ -1,0 +1,11 @@
+{
+  "header_monitor": "Monitor",
+  "header_report": "Report",
+
+  "form_login_username": "Username",
+  "form_login_password": "Password",
+
+  "form_warning_empty": "Cannot be left blank!",
+
+  "btn_login": "Login"
+}

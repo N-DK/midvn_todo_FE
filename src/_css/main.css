@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --theme: #2cc76b;
+  --theme-hover: #e2f0e7;
+  --theme-active-bg: #e2f0e7;
+  --primColor: #ddac2a; */
+
+  --theme: #1f1f1f;
+  --theme-hover: #d8d8d8;
+  --theme-active-bg: #d9d9d9;
+  --primColor: #2a60dd;
+
+  --blue-bea-1: #20a8d8;
+  --blue-bea-2: #63c2de;
+
+  --theme-resize-bar: #efefef;
+
+  --root-bg-lv1: #eef5fa;
+  --root-bg-gray: #888888;
+
+  --root-text-size: 13px;
+  --root-text-color-black: #1d1d1d;
+  /* --root-text-color: #606266; */
+  --root-text-color: #3a4e61;
+  --root-text-gray-color: #828b94;
+  --root-text-gray-blue-color: #a7b1c2;
+  --root-white-text-color: #c7c7c7;
+
+  --root-border-color: #e8e8e8;
+  --root-border-table-color: #f0f0f0;
+
+  --hover-bg: #ffffff20;
+  --hover-bg-dark: #00000008;
+  --hover-bg-dark-l-1: #dcdcdc;
+
+  --mask-bg: #ffffff50;
+  --dark-bg: #001628;
+  --dark-bg-07: #001628bc;
+  --link-color: #008cff;
+
+  --blue: #1673ff;
+  --black: #000000;
+  --green: #2cc76b;
+
+  --gray-bg: #f1f1f1;
+
+  --white: #ffffff;
+  --white-07: #ffffffac;
+  --white-05: #ffffff79;
+  --red: #ff4d4f;
+  --transparent: #ffffff00;
+
+  --red-bold: #ab0003;
+
+  /* //online status color  */
+  --running-color: #00aa9a;
+  /* --running-color: #2cc76b; */
+  --offline-color: #555555;
+  --lostgps-color: #891ca2;
+  --stopped-color: #e74b3c;
+  --stoppedR-color: #0099ce;
+
+  --warning-03: #ddad2a51;
+  --warning: #f5a03e;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: var(--root-text-size);
+  color: var(--root-text-color);
+  background-color: var(--white);
+  /* min-height: 100vh; */
+  overflow: hidden;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+.link-to {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+.link-to:hover {
+  text-decoration: underline;
+}
+
+.online-map-bar___ .handle-bar-online___ {
+  /* display: none; */
+}
+
+.online-map-bar___:hover .handle-bar-online___ {
+  display: block;
+}
+
+.filepond--credits {
+  display: none !important;
+}
+
+.realtime-map-box-wrapper___ div {
+  font-size: 12px !important;
+}
+
+/* Điều chỉnh chiều rộng của mỗi ảnh */
+.filepond--item {
+  width: calc(
+    47%
+  ); /* 50% chia đều cho mỗi ảnh, trừ đi khoảng cách giữa các ảnh */
+  margin-bottom: 10px; /* Khoảng cách giữa các hàng */
+}
+
+/* Điều chỉnh để ảnh nằm trên một dòng */
+.filepond--list {
+  display: flex;
+  flex-wrap: wrap; /* Giúp các ảnh tự động chuyển dòng nếu không đủ chỗ */
+  justify-content: space-between; /* Khoảng cách giữa các ảnh */
+}
+
+.slick-arrow:hover {
+  background: rgba(0, 0, 0, 0.8); /* Nền tối hơn khi hover */
+}

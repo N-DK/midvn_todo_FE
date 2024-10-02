@@ -1,0 +1,50 @@
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00000010;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00000020;
+}
+::-webkit-scrollbar-track {
+  /* border-left: 1px #00000020 solid; */
+  border-radius: 0px;
+}
+
+/* Override ScrollBar ANTD  */
+.rc-virtual-list-scrollbar-thumb {
+  background-color: #00000010 !important;
+}
+.rc-virtual-list-scrollbar-thumb:hover {
+  background-color: #00000020 !important;
+}
+.rc-virtual-list-scrollbar.rc-virtual-list-scrollbar-vertical.rc-virtual-list-scrollbar-visible {
+  width: 4px !important;
+}
+
+.ant-select-tree-list-scrollbar.ant-select-tree-list-scrollbar-vertical.ant-select-tree-list-scrollbar-visible {
+  width: 6px;
+}
+
+.ant-select-tree-list-scrollbar-thumb {
+  background-color: #00000010 !important;
+  width: 4px !important;
+}
+
+.ant-select-tree-list-scrollbar-thumb :hover {
+  background-color: #00000020 !important;
+}
+
+.ant-table-wrapper .ant-table {
+  scrollbar-color: unset;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

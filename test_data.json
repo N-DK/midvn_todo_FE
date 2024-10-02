@@ -1,0 +1,67 @@
+[
+  "{\"imei\":\"08F1C5ADAT\",\"license_number\":\"790144002506\",\"latitude\":10.768237,\"longitude\":106.635124,\"speed\":0,\"rotation\":0,\"signal_quality\":77,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276735,\"address\":\"\"}",
+  "{\"imei\":\"089AFD416T\",\"license_number\":\"\",\"latitude\":10.023839,\"longitude\":106.344551,\"speed\":0,\"rotation\":180,\"signal_quality\":58,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276675,\"address\":\"\"}",
+  "{\"imei\":\"089AFD37AT\",\"license_number\":\"790044231161\",\"latitude\":10.781708,\"longitude\":106.706917,\"speed\":16.87,\"rotation\":318.85,\"signal_quality\":90,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276734,\"address\":\"\"}",
+  "{\"imei\":\"08F2B9E98T\",\"license_number\":\"790048266257\",\"latitude\":10.808158,\"longitude\":106.64463,\"speed\":0,\"rotation\":186.15,\"signal_quality\":80,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276698,\"address\":\"\"}",
+  "{\"imei\":\"08F2BA022T\",\"license_number\":\"\",\"latitude\":10.72583,\"longitude\":106.619286,\"speed\":16.88,\"rotation\":72.39,\"signal_quality\":87,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276740,\"address\":\"\"}",
+  "{\"imei\":\"089AFD3E0T\",\"license_number\":\"010126021711\",\"latitude\":10.378345,\"longitude\":106.042854,\"speed\":44.34,\"rotation\":15.19,\"signal_quality\":87,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276733,\"address\":\"\"}",
+  "{\"imei\":\"08F2BA02AT\",\"license_number\":\"790159119060\",\"latitude\":10.482715,\"longitude\":107.422737,\"speed\":0,\"rotation\":212.72,\"signal_quality\":58,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276735,\"address\":\"\"}",
+  "{\"imei\":\"089CE5970T\",\"license_number\":\"790175339925\",\"latitude\":10.693964,\"longitude\":106.606888,\"speed\":0,\"rotation\":289.34,\"signal_quality\":87,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276725,\"address\":\"\"}",
+  "{\"imei\":\"08F2B9FD1T\",\"license_number\":\"510043000292\",\"latitude\":10.846028,\"longitude\":106.624268,\"speed\":0,\"rotation\":343.48,\"signal_quality\":100,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276632,\"address\":\"\"}",
+
+  "{\"imei\":\"08F2B9F9ET\",\"license_number\":\"790182140165\",\"latitude\":10.973694,\"longitude\":106.680679,\"speed\":0,\"rotation\":323.07,\"signal_quality\":74,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276721,\"address\":\"\"}",
+
+  "{\"imei\":\"089CE593FT\",\"license_number\":\"790130762528\",\"latitude\":10.805267,\"longitude\":106.736229,\"speed\":0,\"rotation\":258.73,\"signal_quality\":96,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276730,\"address\":\"\"}",
+
+  "{\"imei\":\"08F2B9F9BT\",\"license_number\":\"790042000020\",\"latitude\":10.863462,\"longitude\":106.562401,\"speed\":27.19,\"rotation\":348.16,\"signal_quality\":87,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276735,\"address\":\"\"}",
+
+  "{\"imei\":\"08F2B9F35T\",\"license_number\":\"790070015470\",\"latitude\":10.763783,\"longitude\":106.579132,\"speed\":0,\"rotation\":265.83,\"signal_quality\":70,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276699,\"address\":\"\"}",
+
+  "{\"imei\":\"089CE5946T\",\"license_number\":\"790121254993\",\"latitude\":10.753813,\"longitude\":106.664078,\"speed\":22.32,\"rotation\":0,\"signal_quality\":100,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276698,\"address\":\"\"}",
+
+  "{\"imei\":\"08F2B9F80T\",\"license_number\":\"870094001117\",\"latitude\":10.813315,\"longitude\":106.664192,\"speed\":12.46,\"rotation\":12,\"signal_quality\":100,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276732,\"address\":\"\"}",
+
+  "{\"imei\":\"089AFD366T\",\"license_number\":\"\",\"latitude\":10.759103,\"longitude\":106.597122,\"speed\":0,\"rotation\":8.39,\"signal_quality\":100,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276672,\"address\":\"\"}",
+
+  "{\"imei\":\"089CE5918T\",\"license_number\":\"\",\"latitude\":20.973166,\"longitude\":105.758461,\"speed\":0,\"rotation\":257.11,\"signal_quality\":74,\"status\":1,\"acc\":\"0\",\"syn\":0,\"time\":1718276706,\"address\":\"\"}",
+
+  "{\"imei\":\"089AFD3CCT\",\"license_number\":\"\",\"latitude\":10.695149,\"longitude\":106.606117,\"speed\":0,\"rotation\":62.09,\"signal_quality\":51,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276710,\"address\":\"\"}",
+
+  "{\"imei\":\"08F2BA03AT\",\"license_number\":\"790176050052\",\"latitude\":11.243119,\"longitude\":106.75544,\"speed\":45.82,\"rotation\":54.81,\"signal_quality\":90,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276739,\"address\":\"\"}",
+
+  "{\"imei\":\"089CE5968T\",\"license_number\":\"800132003485\",\"latitude\":10.780426,\"longitude\":106.698875,\"speed\":17.68,\"rotation\":348.88,\"signal_quality\":100,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276738,\"address\":\"\"}",
+
+  "{\"imei\":\"089CE5965T\",\"license_number\":\"790170064826\",\"latitude\":10.848053,\"longitude\":106.743179,\"speed\":9.07,\"rotation\":290.86,\"signal_quality\":83,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276736,\"address\":\"\"}",
+
+  "{\"imei\":\"089AFD36CT\",\"license_number\":\"\",\"latitude\":10.798588,\"longitude\":106.670555,\"speed\":11.72,\"rotation\":289.02,\"signal_quality\":96,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276706,\"address\":\"\"}",
+
+  "{\"imei\":\"08F2B9F8ET\",\"license_number\":\"790055323600\",\"latitude\":10.725873,\"longitude\":106.742706,\"speed\":0,\"rotation\":281.27,\"signal_quality\":77,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276703,\"address\":\"\"}",
+
+  "{\"imei\":\"089AFD3B0T\",\"license_number\":\"670058006581\",\"latitude\":10.838562,\"longitude\":106.589157,\"speed\":0,\"rotation\":233.74,\"signal_quality\":83,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276681,\"address\":\"\"}",
+
+  "{\"imei\":\"08F2B9FE4T\",\"license_number\":\"790136852146\",\"latitude\":10.731917,\"longitude\":106.638527,\"speed\":0,\"rotation\":226.22,\"signal_quality\":74,\"status\":2,\"acc\":\"1\",\"syn\":0,\"time\":1718276703,\"address\":\"\"}",
+
+  "{\"imei\":\"089AFD355T\",\"license_number\":\"\",\"latitude\":10.793423,\"longitude\":106.720963,\"speed\":0,\"rotation\":83.99,\"signal_quality\":77,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276705,\"address\":\"\"}",
+
+  "{\"imei\":\"08F2BA026T\",\"license_number\":\"7900570226 06\",\"latitude\":10.811375,\"longitude\":106.605927,\"speed\":0,\"rotation\":196.24,\"signal_quality\":87,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276713,\"address\":\"\"}",
+
+  "{\"imei\":\"089CE592AT\",\"license_number\":\"790008235589\",\"latitude\":10.811007,\"longitude\":106.702522,\"speed\":0,\"rotation\":261.6,\"signal_quality\":93,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276727,\"address\":\"\"}",
+
+  "{\"imei\":\"08F2B9F81T\",\"license_number\":\"790126798760\",\"latitude\":10.886462,\"longitude\":106.63797,\"speed\":0,\"rotation\":209.71,\"signal_quality\":100,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276729,\"address\":\"\"}",
+
+  "{\"imei\":\"08F2B9F05T\",\"license_number\":\"790131780475\",\"latitude\":10.789183,\"longitude\":106.66774,\"speed\":29.68,\"rotation\":301.27,\"signal_quality\":74,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276728,\"address\":\"\"}",
+
+  "{\"imei\":\"08F2B9F63T\",\"license_number\":\"790040013556\",\"latitude\":10.813365,\"longitude\":106.663933,\"speed\":0,\"rotation\":216.83,\"signal_quality\":90,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276729,\"address\":\"\"}",
+
+  "{\"imei\":\"089AFD2B3T\",\"license_number\":\"\",\"latitude\":10.90509,\"longitude\":106.704979,\"speed\":0,\"rotation\":217.42,\"signal_quality\":80,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276729,\"address\":\"\"}",
+
+  "{\"imei\":\"089CE596FT\",\"license_number\":\"234123456123\",\"latitude\":10.78961,\"longitude\":106.652145,\"speed\":3.74,\"rotation\":238.31,\"signal_quality\":100,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276737,\"address\":\"\"}",
+
+  "{\"imei\":\"089AFD3E4T\",\"license_number\":\"790038023121\",\"latitude\":10.795288,\"longitude\":106.718407,\"speed\":32.41,\"rotation\":21.22,\"signal_quality\":96,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276733,\"address\":\"\"}",
+
+  "{\"imei\":\"089AFD364T\",\"license_number\":\"\",\"latitude\":10.762715,\"longitude\":106.702896,\"speed\":11.47,\"rotation\":41.15,\"signal_quality\":74,\"status\":3,\"acc\":\"1\",\"syn\":0,\"time\":1718276731,\"address\":\"\"}",
+
+  "{\"imei\":\"08F2B9FCAT\",\"license_number\":\"\",\"latitude\":10.793313,\"longitude\":106.712692,\"speed\":0,\"rotation\":332.05,\"signal_quality\":96,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276693,\"address\":\"\"}",
+
+  "{\"imei\":\"089CE5964T\",\"license_number\":\"790114223531\",\"latitude\":10.789445,\"longitude\":106.585075,\"speed\":0,\"rotation\":65.85,\"signal_quality\":80,\"status\":2,\"acc\":\"0\",\"syn\":0,\"time\":1718276702,\"address\":\"\"}"
+]

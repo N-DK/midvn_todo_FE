@@ -1,0 +1,10 @@
+{
+  "header_monitor": "Giám sát",
+  "header_report": "Báo cáo",
+
+  "form_login_username": "Tài khoản",
+  "form_login_password": "Mật khẩu",
+  "form_warning_empty": "Không được để trống!",
+
+  "btn_login": "Đăng nhập"
+}
